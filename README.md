@@ -19,6 +19,6 @@
 
 **Ссылка на GitHub Pages**
 
- *[Клик]* (https://symphony44.github.io/russian-travel)
+ [Клик](https://symphony44.github.io/russian-travel)
 
 
