@@ -1,0 +1,30 @@
+.footer__list-item {
+    margin: 0;
+    margin-right: 18px;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: .2s linear;
+    opacity: 1;
+  }
+  
+.footer__list-item:hover {
+    transition: .3s linear;
+    opacity: .5;
+  }
+
+@media screen and (max-width: 700px) {
+    .footer__list-item {
+        margin: 0;
+        line-height: 24px;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 32px;
+    }
+
+    .footer__list-item:last-of-type {
+        margin: 0;
+    }
+}
