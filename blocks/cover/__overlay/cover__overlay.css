@@ -1,0 +1,38 @@
+.cover__overlay {
+    position: relative;
+    background-image: url(../../../images/cover_photo.jpg);
+    background-size: cover;
+    background-position: center; 
+    min-height: 740px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.cover__overlay::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(42, 44, 47);
+    opacity: .3;
+    content: "";
+    z-index: -1;
+    transition: .4s ease-in-out;
+}
+
+.cover__overlay:hover::after {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 425px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
+}

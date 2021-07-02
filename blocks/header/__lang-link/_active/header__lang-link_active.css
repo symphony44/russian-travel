@@ -1,0 +1,9 @@
+.header__lang-link_active {
+    transition: .2s linear;
+    opacity: 1;
+}
+
+.header__lang-link_active:hover {
+    transition: .2s linear;
+    opacity: .7;
+}

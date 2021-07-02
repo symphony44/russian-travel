@@ -1,0 +1,11 @@
+.header__lang-link_inactive {
+    text-decoration: none;
+    transition: .2s linear;
+    opacity: 1;
+}
+
+
+.header__lang-link_inactive:hover {
+    transition: .2s linear;
+    opacity: .7;
+}
