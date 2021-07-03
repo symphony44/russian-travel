@@ -4,26 +4,6 @@
     padding: 0;
     line-height: 18px;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro__list {
-        margin: 0;
-        font-weight: 400;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .intro__list {
-        margin: 0;
-        font-weight: 400;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .intro__list {
-        margin: 0;
-        font-weight: 700;
-    }
-}

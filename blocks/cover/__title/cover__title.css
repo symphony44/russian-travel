@@ -6,12 +6,13 @@
     font-weight: 900;
     z-index: 2;
     color: #ffffff;
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 @media screen and (max-width: 425px) {
     .cover__title {
         line-height: 35px;
         font-size: 32px;
-        font-weight: 900;
     }
 }
