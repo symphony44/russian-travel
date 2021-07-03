@@ -22,4 +22,8 @@
     .place {
         row-gap: 32px;
     }
+
+    .place:last-of-type {
+        margin: 0;
+    }
 }

@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        width: calc(100% - 48px);
         margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
+        max-width: 720px;
         margin-left: 24px;
     }
 }
